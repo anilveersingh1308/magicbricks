@@ -1,0 +1,104 @@
+/* -------------------- Location Dropdown ------------------- */
+
+.LocationLinks:hover .location-left{
+    display: block;
+}
+.location-heading{
+    cursor: pointer; padding: 10px 10px; border-radius: 10px 10px 0 0;
+}
+.LocationLinks:hover .location-heading{
+    background: #ffffff; color: rgb(226, 86, 31); border: 0.2px solid rgba(0, 0, 0, 0.1); border-bottom: #ffffff;
+}
+.LocationLinks:hover span{transform: rotateX(180deg);}
+.location-left{
+    display: block; position: absolute; background: #ffffff; color: black; border: 0.6px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 30px; float: left; left: 0px; margin-left: 80px; border-radius: 10px; box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none; z-index: 1;
+}
+.country-location{
+    cursor: pointer;
+}
+.country-location span{font-size: 19px; font-family: Arial; text-transform: uppercase; color: rgba(0, 0, 0, 0.9);}
+.locations{
+    font-size: 14px; font-weight: 600; margin-top: 5px; color: rgba(0, 0, 0, 0.8);
+}
+.sublocations tr{display: flex; line-height: 19px;}
+.sublocations tr li{
+    width: 140px; font-size: 13px; display: flex; cursor: pointer; color: rgba(0, 0, 0, 0.7);
+}
+.sublocations li:hover{
+    color:rgb(226, 86, 31);
+}
+
+/* ------------- Login Dropdown --------------------------- */
+
+.Login-main-model:hover .login-dropdown{display: block;}
+.login-dropdown{
+    display: block; position: absolute; background: #ffffff; color: black; border: 0.6px solid rgba(0, 0, 0, 0.1); border-top: #fff;
+    padding: 10px 20px;  margin-right: 50px; border-radius: 0 10px 10px 10px; box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1); display: none; z-index: 1;
+}
+
+.login-dropdown li{
+    font-size: 14px; font-weight: 600; line-height: 35px; font-family: Roboto; letter-spacing: 1px; color: rgba(10, 10, 10, 0.87);
+    cursor: pointer;
+}
+.login-dropdown li:hover{
+    color: rgb(226, 86, 31);
+}
+.login-dropdown li span{
+    background: #ff9900; padding: 1px 5px; border-radius: 20px; text-transform: uppercase; font-size: 12px; font-weight: 500;
+}
+.login-dropdown li:hover span{
+    color: rgba(10, 10, 10, 0.87);
+}
+.myActivity{
+    display: inline-flex; color: rgba(0, 0, 0, 0.5); font-size: 13px; width: 100%;
+}
+.myActivity span{
+    width: 50%;  margin-top: 10px; margin-left: 10px; 
+}
+.myActivity span hr{
+    border: 0.01px solid rgba(0, 0, 0, 0.1);
+}
+.login-dropdown li hr{
+    margin: 10px 0; color: rgba(31, 0, 0, 0.1); border-width: 0.5px; cursor: default;
+}
+.login-button{
+    width: 80%; margin: auto;
+}
+.login-button button{
+    padding: 8px 70px; margin: 10px auto; border-radius: 20px; background: rgb(226, 86, 31); border: none; color: #fff; cursor: pointer;
+}
+.optional-signup{
+    font-size: 13px; margin: 10px auto; color: rgba(0, 0, 0, 0.7);
+}
+.optional-signup a{
+    text-decoration: none; color: rgb(226, 86, 31);
+}
+
+/* ----------------------- Prime Dropdown ------------------------ */
+.prime-dropdown{
+    background: #ffffff; border: 0.6px solid rgba(0, 0, 0, 0.1); border-top: #fff; gap: 10px;
+    padding: 10px 20px; border-radius: 0 10px 10px 10px; box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1); z-index: 1;
+    display: none; flex-direction: column; position: absolute; align-items: center; justify-content: center; color: #000;
+}
+.Prime-main-model:hover .prime-dropdown{display: flex;}
+.prime-model-top{
+    background: rgba(7, 6, 6, 0.909); padding: 20px; display: flex; flex-direction: column;
+    align-items: center; gap:8px; justify-content: center; border-radius: 10px; width: auto; margin-bottom: 10px;
+}
+.prime-model-logo img{width: 20px;}
+.prime-model-title{
+    display: flex; gap: 4px; color: rgba(255, 255, 255, 0.8); font-size: 17px; font-weight: 200; font-family: "Roboto Condensed";
+}
+.prime-model-intro2{color: rgb(255, 255, 255);}
+.prime-model-intro3{color: #ff9900; font-weight: 600;}
+.prime-model-sug{
+    font-size: 13px; font-weight: 600; font-family:Arial, Helvetica, sans-serif; color: rgb(172, 123, 83); line-height: 10px;
+}.prime-button{margin: 10px;}
+.prime-button button{
+     padding: 5px 50px; background: rgb(226, 86, 31); border: none; border-radius: 20px; color: #fff; font-weight: 400; cursor: pointer;
+}
+.prime-props{
+    font-size: 14px;
+}

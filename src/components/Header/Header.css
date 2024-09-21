@@ -1,0 +1,47 @@
+*{
+    margin: 0; padding: 0;
+} 
+.header-items{
+    display: block; width: 100%; position: fixed;
+}
+.header-main{
+    display: flex; align-items: center; margin: 0; justify-content: space-between;
+    background: rgb(226, 86, 31); width: 100%;
+}
+.header-left{
+    gap: 30px; margin-left: 50px;
+}
+.header-left-logo{
+    margin-top: 10px; cursor: pointer;
+}
+.header-left, .header-right{
+    display: flex; align-items: center; list-style: none; color: #ffffff; margin: 0 60px;
+}.header-right .header-prime, .header-right .header-login{
+    cursor: pointer; padding: 10px; border-radius: 10px 10px 0 0; border: 0.2px solid transparent;
+}
+.header-right .Prime-main-model:hover .header-prime, .header-right .Login-main-model:hover .header-login{
+background: #ffffff; color: rgb(226, 86, 31); border: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+.header-right .Prime-main-model:hover .header-prime span, .header-right .Login-main-model:hover .header-login span{transform: rotateX(180deg);}
+.location-heading span, .header-prime span, .header-login span{padding-top: 3px; padding-left: 3px; float: right;}
+.post-property{
+    background: #ffffff; color: #000000; font-family: Raleway, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; margin-left: 20px; padding: 7px 14px; border-radius: 20px; cursor: pointer; letter-spacing: 0.5px;
+}
+.post-property span{
+    background: rgba(255, 190, 12, 0.952); padding: 0 7px; border-radius: 20px; color: rgba(0, 0, 0, 0.8);
+    font-family: Poppins; font-size: 12px; float: right; margin-top: -2px; margin-left: 5px; letter-spacing: 0px;
+}
+
+.header-navbar{
+    width: 100%; border-bottom: 0.2px solid rgba(0, 0, 0, 0.1); position: fixed; background: #fff;
+}
+.navBar-items{
+    display: inline-flex; justify-content: space-between; gap: 30px; list-style: none; margin-left: 80px; padding: 5px; padding-bottom: 0;
+}
+.navBar-items .navbar-options{
+    padding: 4px 10px; border: 1px solid #fff; cursor: pointer;
+}
+.Options-navBar:hover .navbar-options{
+    background: #fff; box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1); border-radius: 10px 10px 0 0; border: 0.2px solid rgba(0, 0, 0, 0.2);
+}
