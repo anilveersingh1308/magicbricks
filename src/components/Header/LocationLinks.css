@@ -13,20 +13,21 @@
 .location-left{
     display: block; position: absolute; background: #ffffff; color: black; border: 0.6px solid rgba(0, 0, 0, 0.1);
     padding: 10px 30px; float: left; left: 0px; margin-left: 80px; border-radius: 10px; box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
-    display: none; z-index: 1;
+    display: none; z-index: 1; width: 60%;
 }
 .country-location{
     cursor: pointer;
 }
 .country-location span{font-size: 19px; font-family: Arial; text-transform: uppercase; color: rgba(0, 0, 0, 0.9);}
 .locations{
-    font-size: 14px; font-weight: 600; margin-top: 5px; color: rgba(0, 0, 0, 0.8);
+    font-size: 14px; font-weight: 600; margin-top: 5px; color: rgba(0, 0, 0, 0.8); line-height: 22px;
 }
-.sublocations tr{display: flex; line-height: 19px;}
-.sublocations tr li{
-    width: 140px; font-size: 13px; display: flex; cursor: pointer; color: rgba(0, 0, 0, 0.7);
+.location{width: 100%;}
+.location .near-locations{line-height: 18px;}
+.subLocation{
+    font-size: 13px; display: inline-block; cursor: pointer; color: rgba(0, 0, 0, 0.7); width: 20%;
 }
-.sublocations li:hover{
+.subLocation:hover{
     color:rgb(226, 86, 31);
 }
 

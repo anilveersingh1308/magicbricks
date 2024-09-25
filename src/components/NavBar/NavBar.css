@@ -6,6 +6,7 @@
     padding-right: 80px; display: none; margin-left: 1px; z-index: 1; background: #fff;
 }
 .Options-navBar:hover .Options-main-model{display: flex;}
+.Options-navBar:hover .help-container{display: block;}
 .Options-conatainer-model .options-heading{
     color: rgba(0, 0, 0, 0.9); font-size: 16px;
 }

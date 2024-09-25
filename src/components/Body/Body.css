@@ -27,7 +27,7 @@
 .searchbar-container-type-finder, .searchbar-container-budget-finder{cursor: pointer; list-style: none;}
 .searchbar-container-type-finder li, .searchbar-container-budget-finder li{float: right; padding-right: 10px; padding-top: 7px; color: rgba(0, 0, 0, 0.4); font-size: 13px;}
 .searchbar-container-button .search-icon{color: #fff; float: left; padding-top: 5px;}
-.searchbar-container-button{background: rgb(226, 86, 31); border-radius: 25px; color: #fff; font-weight: 400; width: 20%; justify-content: center; display: flex; gap: 10px;cursor: pointer;}
+.searchbar-container-button{margin-left: 10px; background: rgb(226, 86, 31); border-radius: 25px; color: #fff; font-weight: 400; width: 20%; justify-content: center; display: flex; gap: 10px;cursor: pointer;}
 .searchbar-container{padding: 10px 0;}
 .searchbar-container-location-finder input.outlined-address{color: rgba(0, 0, 0, 0.6); width: 85%;}
 .general-properties-header, .body-properties-label{margin: 100px 50px;}
@@ -36,4 +36,5 @@
 .properties-label-title .outline{border-color: #ffd000;}
 .properties-container-type{display: inline-flex; width: 25%;}
 .properties-container-type a img{display: inline-flex; width: 95%; margin-left: 10px; height: 90%; border-radius: 10px;}
+
 
