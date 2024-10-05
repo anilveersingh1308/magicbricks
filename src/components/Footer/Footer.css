@@ -1,0 +1,23 @@
+.footer-container-state1{display: inline-block;}
+.division{display: flex; background-color: rgba(230, 230, 230, 0.705); width: 100%; padding-top: 15px;}
+.heading{font-weight: 600; letter-spacing: 1px; margin-top: 30px; margin-bottom: 10px;}
+.container-state1-division-first, .container-state1-division-second{width: 100%;}
+.sub-link{font-size: 13px; color: rgba(0, 0, 0, 0.8); text-decoration: none;}
+.sub-link:hover{text-decoration: underline;}
+.display li{display: inline-flex;}
+.property-location div, .projects-location div{display: inline-flex;}
+.property-location div span, .projects-location div span{border: 1px solid rgba(0, 0, 0, 0.4); margin: 0 5px; height: 16px;}
+.container-state2-division{justify-content: center;}
+.state2-division-menu{padding: 10px 60px;background-color: rgba(0, 0, 0, 0.11); width: 100%;}
+.state2-division-menu a.sub-link{font-size: 16px; font-weight: 100;}
+.state2-division-menu li{margin-left: 5px; margin-right: 20px;}
+.state2-division-menu a.sub-link:hover{text-decoration: none;}
+.extent-content-main{font-size: 14px; color: rgba(0, 0, 0, 0.8);}
+.network-content li{width: 110px; margin-right: 5px;}.network-content li a.sub-link{font-size: 12.5px;}
+.division-part-platform{margin-top: 20px;} .platform-lg div{display: inline-flex; margin-right: 20px;} .platform-lg div.icon{margin-right: 30px;}
+.platform-lg li .small-icon{border-radius: 50%; margin-right: 10px; cursor: pointer;} .platform-lg li .big-icon{border-radius: 20px; margin-right: 10px; cursor: pointer;}
+.container-state3-division div, .fixed-division, .container-state1-division-first, .container-state1-division-second{padding: 0 60px; width: 100%;}
+.container-state3-division{font-size: 12.5px; color: rgba(0, 0, 0, 0.8);}.container-state1-division-first{padding-right: 0;}
+.fixed-division{background-color: #000000; color: #ffffff; font-size: 12px; padding-top: 10px; padding-bottom: 10px; font-weight: 100;}
+
+
