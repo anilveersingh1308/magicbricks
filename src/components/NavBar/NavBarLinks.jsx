@@ -133,7 +133,7 @@ export const HomeInteriors = () => {
 export const MbAdvice = () => {
     return (
         <div className='Options-navBar'>
-            <div className="navbar-options">MB Advice <span>new</span> <span className='downArrow-icon'><FaAngleDown /></span></div>
+            <div className="navbar-options">MB Advice <span className='navbar-new'>new</span> <span className='downArrow-icon'><FaAngleDown /></span></div>
             <div className='Options-main-model Mb-model'>
                 {advice_options.map((options, opIndex) => (
                     <div className="Options-conatainer-model" key={opIndex}>

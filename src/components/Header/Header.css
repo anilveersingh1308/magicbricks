@@ -37,7 +37,7 @@ background: #ffffff; color: rgb(226, 86, 31); border: 0.2px solid rgba(0, 0, 0, 
     width: 100%; border-bottom: 0.2px solid rgba(0, 0, 0, 0.1); position: fixed; background: #fff;
 }
 .navBar-items{
-    display: inline-flex; justify-content: space-between; gap: 30px; list-style: none; margin-left: 80px; padding: 5px; padding-bottom: 0;
+    display: flex; justify-content: left; gap: 2rem; list-style: none; margin-left: 3rem; padding: 5px; padding-bottom: 0;
 }
 .navBar-items .navbar-options{
     padding: 4px 10px; border: 1px solid #fff; cursor: pointer;

@@ -11,19 +11,20 @@
     color: rgba(0, 0, 0, 0.9); font-size: 16px;
 }
 .Options-conatainer-model li{
-    color: rgba(0, 0, 0, 0.8); font-size: 14px; gap: 40px; cursor: pointer; line-height: 30px; width: auto;
+    color: rgba(0, 0, 0, 0.8); font-size: 14px; cursor: pointer; line-height: 30px; width: auto;
 }
 .Options-conatainer-model li:hover.options-heading{color: #000; cursor: text;}
 .Options-conatainer-model li:hover{color: rgb(226, 86, 31);}
 .Options-conatainer-model li a{color: #000;}
-.Options-conatainer-model li span, .navbar-options span{background: rgba(255, 190, 12, 0.952); padding: 0 5px; border-radius: 20px; text-transform: uppercase; font-size: 11px;}
+.navbar-options{display: inline-flex; width: auto; color: rgba(0, 0, 0, 0.8);}
+.navbar-options span.navbar-new{padding-top: 6px;}
+.Options-conatainer-model li span, .navbar-options span{background: rgba(255, 190, 12, 0.952); padding: 0 8px; margin-left: 2px; border-radius: 15px; text-transform: uppercase; font-size: 10px; font-family: "roboto";}
 .Options-conatainer-model .sell-cont:hover, .Options-conatainer-model .sell-cont{color: rgba(0, 0, 0, 0.5);}
 .Options-conatainer-model li:hover span{color: #000;}
 .Options-navBar:hover .navbar-options, .Options-navBar:hover .navbar-options span.downArrow-icon{color: rgb(226, 86, 31);}
-.Options-navBar:hover .navbar-options span{color: initial;} 
-.navbar-options span{font-size: 14px;}
+.Options-navBar:hover .navbar-options span{color: rgba(0, 0, 0, 0.8);} 
 .Options-conatainer-model:hover li hr{border: 1px solid rgb(226, 86, 31);}
-.navbar-options span.downArrow-icon{padding-top: 6px; float: right; background: none;}
+.navbar-options span.downArrow-icon{padding-top: 6px; float: right; background: none; font-size: 14px;}
 .Options-navBar:hover span.downArrow-icon{transform: rotate(180deg);}
 /* --------------- Rent Dropdown --------------- */
 .Mb-model, .Loan-model, .Interior-model{float: left; right: 90px; border-radius: 10px;}

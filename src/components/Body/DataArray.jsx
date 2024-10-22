@@ -471,13 +471,13 @@ export const project = [
 
 export const snap= [
     {
-        ext: 'A home to about 20 million People, Mumbai is the entertainment capital of India. Also known as Bombay and being the financial capital of India this city is a destination for many big events and activities throughout the year. The number of people who visit Mumbai is countless and so as the number of people who migrate to Mumbai. This recent shift leads to the rising demand for residential homes in Mumbai and commercial spaces in Mumbai. Finding a ',
-        ext_next: ' perfect flat for rent or sale in Mumbai is tougher than getting a job in this city. This increasing demand for a house in Mumbai has invited several big builders to come up with affordable housing solution in Mumbai. From plethora of job options to better lifestyle, you will take time to find your flat in Mumbai. With Magicbricks you can make this journey easy as there are a number of residential projects in Mumbai whose details are easily accessible on the portal. Mumbai is known for its nightlife and secure environment and therefore it is considered to be the safest place to live in India. Describing every locality is bit difficult but suggesting the top localities for residential homes in Mumbai is an easy task. Some of the well-known localities in Mumbai for the residential purpose are Bandra, Goregaon, Andheri, Navi Mumbai, Juhu, Powai, South Mumbai, Worli Chembur and Lower Parel, where you will find lavishly designed apartments for sale or rent, luxurious villas and bungalows, commercial spaces for offices in Mumbai.',
+        ext: 'A home to about 20 million People, New Delhi is the entertainment capital of India. Also known as Bombay and being the financial capital of India this city is a destination for many big events and activities throughout the year. The number of people who visit New Delhi is countless and so as the number of people who migrate to New Delhi. This recent shift leads to the rising demand for residential homes in New Delhi and commercial spaces in New Delhi. Finding a ',
+        ext_next: ' perfect flat for rent or sale in New Delhi is tougher than getting a job in this city. This increasing demand for a house in New Delhi has invited several big builders to come up with affordable housing solution in New Delhi. From plethora of job options to better lifestyle, you will take time to find your flat in New Delhi. With Magicbricks you can make this journey easy as there are a number of residential projects in New Delhi whose details are easily accessible on the portal. New Delhi is known for its nightlife and secure environment and therefore it is considered to be the safest place to live in India. Describing every locality is bit difficult but suggesting the top localities for residential homes in New Delhi is an easy task. Some of the well-known localities in New Delhi for the residential purpose are Bandra, Goregaon, Andheri, Navi New Delhi, Juhu, Powai, South New Delhi, Worli Chembur and Lower Parel, where you will find lavishly designed apartments for sale or rent, luxurious villas and bungalows, commercial spaces for offices in New Delhi.',
         desig: [
-            {count: '1747+', value: 'Low Budget Flats in Mumbai'},
-            {count: '87951+', value: 'Properties for Sale in Mumbai',},
-            {count: '292+', value: 'Residencial Property Agents in Mumbai',},
-            {count: '66545+', value: 'Residencial Projects in Mumbai',},
+            {count: '1747+', value: 'Low Budget Flats in New Delhi'},
+            {count: '87951+', value: 'Properties for Sale in New Delhi',},
+            {count: '292+', value: 'Residencial Property Agents in New Delhi',},
+            {count: '66545+', value: 'Residencial Projects in New Delhi',},
         ]
     }
 ]
