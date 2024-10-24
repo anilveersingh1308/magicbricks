@@ -481,3 +481,96 @@ export const snap= [
         ]
     }
 ]
+
+export const residence = [
+    {
+        city : 'Banglore',
+        sub_cities : [
+            "Sobha Dream Acres", "Prestige Lakeside Habitat", "Prestige Shantiniketan", "Prestige Falcon City",
+            "Adarsh Palm Retreat", "Godrej Splendour", "Sobha Windsor", "Sobha City", "Prestige Golfshire",
+            "SNN Clermont", "Prestige Jindal City", "Brigade Eldorado", "Sumadhura Eden Garden", "Sobha Royal Pavilion", 
+            "SNN Raj Serenity", "Purva Palm Beach", "Prestige Lake Ridge", "Prestige Ferns Residency", "Godrej Ananda",
+            "Adarsh Palm Retreat", "Brigade Lakefront", "Bhartiya City Nikoo Homes", "TATA Promont", "SNN Raj Etternia",
+        ]
+    },
+    {
+        city : 'Mumbai', 
+        sub_cities : [
+            "Vasant Oasis", "Royal Palms", "Highland Park", "Spring Field", "Omkar 1973", "Sea Bird", "Rustomjee Paramount",
+            "Runwal Greens", "Maitri Park", "Lodha Altamount", "Imperial Heights", "Auris Serenity", "Runwal Forests", 
+            "Palais Royale", "One Avighna Park", "Nathani Heights", "Nahar Amrit Shakti", "Lodha World Towers", "Hiranandani Gardens",
+            "Ekta Nagar", "Bhakti Park", "Ave Maria", "4th Avenue", "Sunteck Naigaon",
+        ],
+    },
+    {
+        city : 'Pune', 
+        sub_cities : [
+            "Park Street", "Palm Atlantis", "Lodha Belmondo", "Kundlika Valley", "Zinnia Elegans", "Dream Homes", "Pride World City", "Lake Town",
+            "Rohan Abhilasha", "Panchshil Towers", "Kolte Patil Life Republic", "Kendriya Vihar", "Xrbia Hinjewadi", "Spring Meadows", 
+            "Spine City Mall", "VTP Blue Waters", "Nyati Elysia", "Gagan Vihar", "Blue Ridge", "Vaarivana", "Windermere", "Technopolis", 
+            "Rose Valley", "SP Infocity",
+        ],
+    },
+    {
+        city : 'Hyderabad', 
+        sub_cities : [
+            "My Home Bhooja", "My Home Avatar", "Galaxy Apartments", "Whistling Woods", "Rainbow Vistas", "Prestige High Fields", "My Home Vihanga", 
+            "Lanco Hills", "Rajapushpa Provincia", "PBEL City", "Aparna Serene Park", "My Home Mangala", "Mantri Celestia", "Jal Vayu Vihar", 
+            "Aliens Space Station", "Vasavi Urban", "Sumadhura Acropolis", "SMR Vinay Iconia", "My Home Krishe", "Rajapushpa Atria", "My Home Jewel", 
+            "Vessella Meadows", "Vaishnavi Oasis", "Ramky Towers", 
+        ],
+    },
+    {
+        city : 'Noida', 
+        sub_cities : [
+            "Mahagun Mywoods", "Gaur City 2", "Cleo County", "Panchsheel Greens", "Godrej Woods", "Amrapali Sapphire", "Supertech Eco Village 1", 
+            "Nirala Estate", "Mahagun Moderne", "Krishna Apartment", "ACE Divino", "Supertech Capetown", "Supertech Emerald Court", "Supernova Spira",
+            "Paras Tierea", "Panchsheel Greens 2", "PAN Oasis", "Lotus Boulevard", "Jalvayu Towers", "Gulshan Ikebana", "Fusion Homes", "Golf City",
+            "ATS One Hamlet", "Supertech Supernova", 
+        ],
+    },
+    {
+        city : 'Gurgaon', 
+        sub_cities : [
+            "Vatika City", "Chintels Paradiso", "Galaxy Apartment", "M3M Golf Estate", "Parsvnath Exotica", "DLF Camellias", "Birds Eye View", 
+            "The Retreat", "Tata Primanti", "Mapsko Mount Ville", "DLF The Ultima", "Tatvam Villas", "Malibu Town", "Mahindra Luminare", 
+            "M3M Woodshire", "M3M Merlin", "M3M Marina", "Ireo Victory Valley", "Park View Apartment", "Orchid Petals", "IREO Skyon", "Emaar Palm Hills", 
+            "DLF Skycourt", "DLF Magnolias", 
+        ],
+    },
+    {
+        city : 'Kolkata',
+        sub_cities : [
+            "Mega City", "Elita Garden Vista", "Dream City", "Balaji Enclave", "Balaji Residency", "Urbana", "Southwinds", "Sunrise Point", 
+            "Windmere", "Embassy Boulevard", "Siddha Galaxia", "Krishna Kunj", "Hiland Park", "Godrej Prakriti", "DTC Southern Heights", 
+            "Balaji Apartment", "Chitrakut Dham", "The 42 Kolkata", "South City", "Surya Heights", "Flora Fountain", "Uniworld City", "Greenfield City", "Emami City",
+        ],
+    },
+    {
+        city : 'Chennai',
+        sub_cities : [
+            "House of Hiranandani", "Sree Krishna", "Prestige Bella Vista", "Kosmo One", "DLF Gardencity", "Casagrand Zenith", "Casagrand First city", 
+            "Casagrand Athens", "Purva Windermere", "Brigade Xanadu", "Prestige Courtyards", "Platinum City", "Osian Chlorophyll", "Mayfair Apartments", 
+            "Mahalakshmi Nagar", "KG Signature City", "Alliance Orchid Springs", "VGN Stafford", "TVS Emerald Green Enclave", "Swarnabhoomi", 
+            "Sunshine Apartments", "Sobha Winchester", "Olympia Opaline", "Kings Court", 
+        ],
+    },
+    {
+        city : 'Thane', 
+        sub_cities : [
+            "Lodha Amara", "Lodha Splendora", "Regency Anantam", "Runwal Gardens", "Lodha Palava", "Sai Residency", "Rustomjee Urbania", 
+            "Bella Vista", 'Lodha Palava City', "Lodha Crown", "Green Woods", "Runwal Eirene", "Dosti West County", "Piramal Vaikunth", 
+            "Park View", "One Hiranandani Park", "Lodha Sterling", "Vasant Valley", "Krishna Complex", "Regency Antilia", "Marathon Nexworld", 
+            "Jasmine Tower", "Kalpataru Paramount",
+        ],
+    },
+    {
+        city : 'Ahmedabad',
+        sub_cities : [
+            "Godrej Garden City", "Adani Shantigram", "Ananta", "Super City", "Suryam Repose", "Saujanya", "Iscon Platinum", "Riverfront Flower Park",
+            "Suramya Abode", "Kalhaar Blues and Greens", "Glade One", "Iscon Mega Mall", "Swaminarayan City", "Royal Homes", "Basant Bahar", 
+            "Prestige Tower", "Vinayak Residency", "Swati Parkside", "Suramya Lifespace", "Serenity Meadows", "Sun Solace", "Sentossa Greenland", 
+            "Ganesh Genesis", "Casa Vyoma",
+        ],
+    },
+];

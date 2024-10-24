@@ -105,3 +105,13 @@
 .estimate-search{display: inline-flex; gap: 5px; width: auto; padding-left: 20px; border-radius: 25px; background-color: #ffffff; margin-bottom: 10px;}
 .worth-button{padding: 10px 20px; font-family: "Roboto"; letter-spacing: 0.5px; background: rgb(226, 86, 31); border: none; border-radius: 25px; font-size: 18px; font-weight: 600; color: #ffffff; cursor: pointer;}
 .worth-button:hover{background: #ff6a3d;}
+
+/* ------------------------------ Residencial container --------------------------------------------- */
+.residencial-projects-container{display: flex; gap: 2vw; width: 100%; padding: 0 10px; margin-top: 50px; }
+.residencial-projects-container .location-section{display: block;}
+.residencial-projects-container .location-section .main_location{ cursor: pointer; border: none; background: none; font-size: 15px; color: rgba(0, 0, 0, 0.7);}
+.residencial-projects-container .location-section .list-decor{background: #ff6a3d; width: auto; height: 3px; display: none;}
+.residencial-projects-container .location-section .main-location-section .main_location:active{border-bottom: 3px solid #ff6a3d;}
+
+.residencial-display{width: 25%; display: inline-flex; margin-bottom: 10px; font-size: 14.5px; cursor: pointer; color: rgba(0, 0, 0, 0.6);}
+.residencial-display:hover{color: #ff6a3d;}
