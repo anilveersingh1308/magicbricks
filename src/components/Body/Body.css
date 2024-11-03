@@ -12,13 +12,13 @@
 .preview-outline{display: inline-flex; object-fit: cover;}
 
 .body1-cotainer-serchbar{
-    display: flex; border: 1.5px solid rgba(0, 0, 0, 0.4); margin: 0 30px; font-size: 18px; padding: 5px; border-radius: 50px;
+    display: flex; border: 1.5px solid rgba(0, 0, 0, 0.4); margin: 0 30px; font-size: 16px; padding: 5px; border-radius: 50px;
     color: rgba(0, 0, 0, 0.6); padding-left: 15px;
 }
 .container1{margin-bottom: 5px;}
 .searchbar-container-location-finder{margin: 0; width: 38%;}
 .searchbar-container-type-finder, .searchbar-container-budget-finder, .searchbar-container-button{width: 22%; border: 1px solid transparent;}
-.searchbar-container-type-finder{border: 1.5px solid rgba(0, 0, 0, 0.3); border-top: none; border-bottom: none;}
+.searchbar-container-type-finder{border: 1.5px solid rgba(0, 0, 0, 0.4); border-top: none; border-bottom: none;}
 .searchbar-container-location-finder input.outlined-address{font-size: 18px; outline: none; border: none;}
 .searchbar-container-location-finder .search-marker, .searchbar-container-type-finder .type-icon,
  .searchbar-container-budget-finder .budget-icon{font-size: 16px; color: rgb(226, 86, 31); margin-right: 10px;}
@@ -31,7 +31,8 @@
 .searchbar-container{padding: 10px 0;}
 .searchbar-container-location-finder input.outlined-address{color: rgba(0, 0, 0, 0.6); width: 85%;}
 .general-properties-header, .body-properties-label{display: block; width: 100%;}
-.general-properties-header{margin-top: 100px;}
+.general-properties-header{margin-top: 90px;}
+.label-header-title{color: rgba(0, 0, 0, 0.75);}
 .properties-header-title, .properties-label-title{margin: 30px 10px; font-size: 25px; color: rgba(0, 0, 0, 0.8); font-family: "Montserrat", sans-serif; font-weight: 100;}
 .properties-header-title .outline, .properties-label-title .lable-left .outline{border: 2px solid rgb(226, 86, 31); width: 35px; border-radius: 20px; margin-top: 2px;}
 .properties-label-title .lable-left .outline{border-color: #ffd000;} .properties-label-title .lable-left .mb-outline{border-color: aqua;}   .properties-label-title .lable-left .gOutline{border-color: rgb(0, 189, 189);}
@@ -40,11 +41,7 @@
 .properties-container-bg img{width: 100%; border-radius: 10px; filter: brightness(75%); transition: transform 0.5s; overflow: hidden; z-index: -1;}
 
 
-.container-content:hover .properties-container-bg img{transform: scale(1.2);}
-.image-preview-container{
-    margin-right: 20px; float: right; height: 150px; display: inline-flex; margin-top: 50px;
-    width: 250px; border: 1px solid black;
-}
+
 .preview-outline{z-index: -1; object-fit: cover;}
 .preview-body-container{border: 3px solid red;}
 
@@ -106,12 +103,59 @@
 .worth-button{padding: 10px 20px; font-family: "Roboto"; letter-spacing: 0.5px; background: rgb(226, 86, 31); border: none; border-radius: 25px; font-size: 18px; font-weight: 600; color: #ffffff; cursor: pointer;}
 .worth-button:hover{background: #ff6a3d;}
 
-/* ------------------------------ Residencial container --------------------------------------------- */
-.residencial-projects-container{display: flex; gap: 2vw; width: 100%; padding: 0 10px; margin-top: 50px; }
-.residencial-projects-container .location-section{display: block;}
-.residencial-projects-container .location-section .main_location{ cursor: pointer; border: none; background: none; font-size: 15px; color: rgba(0, 0, 0, 0.7);}
-.residencial-projects-container .location-section .list-decor{background: #ff6a3d; width: auto; height: 3px; display: none;}
-.residencial-projects-container .location-section .main-location-section .main_location:active{border-bottom: 3px solid #ff6a3d;}
+/*---------------------------------- MB Preferred Container --------------------------------------------- */
+.preferred-label-header{display: flex; padding: 10px; background: rgb(226, 254, 255); border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.preferred-label-header .label-header-title{margin-left: 20px; font-size: 14px;}
+.preferred-label-header img{width: 40px; border-radius: 5px; padding: 2px;background: linear-gradient(45deg, rgb(252, 127, 55) 0.5%, rgb(0, 255, 255) 99.5%);}
+.preferred-label-body{display: flex; gap: 20px; padding: 10px; background: #ffffff; } 
+.preferred-label-body img{width: 40px; border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.2); height: 40px; margin-top: 5px;}
+.preferred-label-body{font-size: 13px;}
+.body-label-container{display: flex; font-size: 11px;}
+.properties-label-content .label-footer{max-width: 100px;}
+.properties-label-content .label-footer .footer-count{font-size: 16px;}
 
-.residencial-display{width: 25%; display: inline-flex; margin-bottom: 10px; font-size: 14.5px; cursor: pointer; color: rgba(0, 0, 0, 0.6);}
+/* ------------------------------ Mumbai Properties Container --------------------------------------------- */
+.property-scroll{margin-top: 30px; margin-left: 10px; height: auto; overflow-x: auto; overflow-y: hidden; white-space: nowrap; scrollbar-width: thin; text-align: left; list-style: none; padding-bottom: 10px;}
+.property-scroll .property-subtype{color: rgba(0, 0, 0, 0.6); cursor: pointer; margin-bottom: 2px;}
+.property-scroll .property-subtype:hover{color: #ff6a3d;}
+.property-scroll::-webkit-scrollbar-button{display: none;}
+.property-scroll::-webkit-scrollbar-thumb { background-color: #707070; border-radius: 4px;}
+.property-scroll::-webkit-scrollbar-track{background: #f1f1f1;}
+
+/* ------------------------------ Residencial container --------------------------------------------- */
+.residencial-projects-container{display: flex; gap: 2vw; width: auto; padding: 0 10px; margin-top: 20px;}
+.residencial-projects-container .location-section{display: block;}
+.residencial-projects-container .location-section .main_location{ display: inline-block;  position: relative;  font-size: 15px;  color: #4e4e4e;  cursor: pointer;  padding-bottom: 10px;  text-decoration: none;  transition: color 0.3s ease; } 
+.main_location::before{ content: ''; position: absolute;  width: 0;  height: 3px;  bottom: 0;  left: 0;  background-color: #ff6a3d;  border-radius: 10px;  transition: width 0.4s ease; }
+.main_location.active{color: #252525; font-weight: 600;}
+.main_location:hover::before{width: 100%;}
+.main_location.active::before{width: 100%;}
+.residencial-display{width: 25%; display: inline-flex; margin-bottom: 10px; font-size: 14.5px; cursor: pointer; color: rgba(0, 0, 0, 0.6); }
 .residencial-display:hover{color: #ff6a3d;}
+.residencial-scroll{margin-top: 30px; margin-left: 10px; width: auto; height: 100px; overflow-y: scroll; text-align: left;}
+.residencial-scroll::-webkit-scrollbar-button{display: none;}
+.residencial-scroll::-webkit-scrollbar { width: 6px;}
+.residencial-scroll::-webkit-scrollbar-thumb { background-color: #707070; border-radius: 4px; }  
+.residencial-scroll::-webkit-scrollbar-track{background: #f1f1f1;}
+
+/* ------------------------------ Recommended container (Top Blogs) --------------------------------------------- */
+.blogs-container{display: flex; gap: 2vw; width: 100%; padding-right: 0;}
+.blogs-left{width: 15%; padding: 10px; }
+.blogs-right{ width: 85%; margin-right: 0; }
+.blogs-container-title{ display: flex; gap: 10px; align-items: center; width: auto;}
+.blog-title-section{display: inline-flex; overflow-x: auto; scroll-behavior: smooth; gap: 10px; width: auto; }
+.blog-title-section::-webkit-scrollbar {display: none;}
+.blogs-container-title-item { list-style: none; font-size: 15px; min-width: 130px; cursor: pointer; color: rgba(0, 0, 0, 0.7); display: flex; 
+    justify-content: center; align-items: center; border-radius: 25px; padding-bottom: 10px;  text-decoration: none;  transition: color 0.3s ease; position: relative;
+}
+.blogs-container-title-item.active { border-radius: 3ps solid #ff6a3d; }
+.scroll-button { background: none; border: none; font-size: 18px; font-weight: 800; cursor: pointer; border-radius: 5px; margin: 0 5px; }
+.blogs-container-title-item::before{ content: '';   position: absolute;  width: 0;  height: 3px;  bottom: 0;  left: 0;  background-color: #ff6a3d;  border-radius: 10px;  transition: width 0.4s ease; }
+.blogs-container-title-item.active{color: #252525; font-weight: 600;}
+.blogs-container-title-item.active::before{width: 100%;}
+
+/*----------------------------- Recommended container (Area Calculator) --------------------------------------------- */
+.area-cal-container{margin-top: 20px;} .area-left{padding: 0 10px; width: 15%;}
+.area-cal-title{
+    min-width: 190px; border: 1px solid rgba(0, 0, 0, 0.2); padding: 5px 10px; border-radius: 25px; font-size: 15px; color: rgba(0, 0, 0, 0.6);
+}

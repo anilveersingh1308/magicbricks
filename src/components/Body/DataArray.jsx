@@ -4,25 +4,6 @@ import preview3 from '../../assets/preview-3.png'
 import preview4 from '../../assets/preview-4.jpg'
 
 export const search_Menu = ['Buy', 'Rent', 'New Projects', 'PG', 'Plot', 'Commercial', 'Post Free Property Ad'];
-export const img_preview = [
-    {
-        img1: [
-            {
-                id: 1, thumbnail: preview1, alt: 'Image 1'
-            },
-            {
-                id: 2, thumbnail: preview2, alt: 'Image 2',
-            },
-            {
-                id: 3, thumbnail: preview3, alt: 'Image 3,'
-            },
-            {
-                id: 4, thumbnail: preview4, alt: 'Image 4'
-            },
-        ],
-    },    
-     
-];
 
 /*--------------------------------------------------------------- Serach Bar Type -------------------------------------------*/
 
@@ -213,142 +194,178 @@ export const property = [
 
 /*------------------------------------------------------ MB Agents ---------------------------------------------*/
 
+import mb_img1 from '../../assets/L1.jpg'
+import mb_img2 from '../../assets/L2.jpg'
+import mb_img3 from '../../assets/L3.jpg'
+import mb_img4 from '../../assets/L4.jpg'
+import mb_img5 from '../../assets/L5.jpg'
+import mb_img6 from '../../assets/L6.png'
+import mb_img7 from '../../assets/L7.jpg'
+import mb_img8 from '../../assets/L8.jpg'
+import agent_img1 from '../../assets/mb_agent1.jpg'
+import agent_img2 from '../../assets/mb_agent2.jpg'
+import agent_img3 from '../../assets/mb_agent3.jpg'
+import agent_img4 from '../../assets/mb_agent4.jpg'
+import agent_img5 from '../../assets/mb_agent5.jpg'
+import agent_img6 from '../../assets/mb_agent6.jpg'
+import agent_img7 from '../../assets/mb_agent7.jpg'
+import agent_img8 from '../../assets/mb_agent8.jpeg'
+
 export const agent = [
     {
-        co: 'MB Preferred',
+        agent_img: agent_img1,
         name: 'Ravi Kumar',
         company: [
             {
+                img: mb_img1,
                 name: 'Paul Associate',
-                year: 'Operating Since 2001',
-                emp: 'Buyers Served 1000+'
+                year: '2001',
+                emp: '1000+'
             }
         ],
         sale: '38',
-        sale_title: 'Properties for Sale',
         rent: '9',
-        rent_title: 'Properties for Rent',
         rating: null,
-        rating_title: null,
+        rating_title: null,  
+        operating_loc: 'Moti Nagar, Karol Bagh, Kirti Nagar, Karam Pura, Bijwasan',
+        rent_range: '₹ 1.10 Cr - 23 Cr',
+        sell_sange: '₹ 19,000 - 2.3 Lacs',
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img2,
         name: 'Kunal Gupta',
         company: [
             {
+                img: mb_img2,
                 name: 'Shri Builder Connector Pvt Ltd.',
-                year: 'Operating Since 2016',
-                emp: 'Buyers Served 500+'
+                year: '2016',
+                emp: '500+'
             }
         ],
         sale: '52',
-        sale_title: 'Properties for Sale',
         rent: '4',
-        rent_title: 'Properties for Rent',
         rating: null,
-        rating_title: null,
+        rating_title: null,  
+        operating_loc: 'Uttam Nagar, Uttam Nagar East, Nawada, Om Vihar, Dwarka Mor, Uttam Nagar West',
+        rent_range: '₹ 14 Lacs - 66 Lacs',
+        sell_sange: null,
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img3,
         name: 'Ashok Singh',
         company: [
             {
+                img: mb_img3,
                 name: 'Global Property',
-                year: 'Operating Since 1992',
-                emp: 'Buyers Served 1000+'
+                year: '1992',
+                emp: '1000+'
             }
         ],
         sale: '50',
-        sale_title: 'Properties for Sale',
         rent: null,
         rent_title: null,
         rating: null,
-        rating_title: null,
+        rating_title: null,  
+        operating_loc: 'Greater Kailash 1, Vasant Vihar, Neeti Bagh, Shanti Niketan, Defence Colony, Greater Kailash 2, Greater Kailash Part 3, East Of Kailash, Gulmohar Park, Pamposh Enclave, Kailash Colony, Jangpura Extension, Anand Lok, Safdarjung Development Area, Greater Kailash Enclave 1, West End Colony, Block E Greater Kailash 2, Panchsheel Park, Hauz Khas, Greater Kailash Enclave 2, Green Park, Hauz Khas Enclave, New Friends Colony, Hemkunt Colony, Chirag Enclave, Masjid Moth, Anand Niketan, Jangpura A, D Block East of Kailash',
+        rent_range: '₹ 4.25 Cr - 28 Cr',
+        sell_sange: '₹ 1.1 Lacs - 7 Lacs',
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img4,
         name: 'Smith Sharing',
         company: [
             {
+                img: mb_img4,
                 name: 'Sharing Real Estate',
-                year: 'Operating Since 2014',
-                emp: 'Buyers Served 2500+'
+                year: '2014',
+                emp: '2500+'
             }
         ],
         sale: '44',
-        sale_title: 'Properties for Sale',
         rent: '29',
-        rent_title: 'Properties for Rent',
         rating: null,
-        rating_title: null,
+        rating_title: null,  
+        operating_loc: 'Sector 6 Dwarka, Sector 7 Dwarka, Block A Sector 12 Dwarka, Sector 10 Dwarka, Sector 22 Dwarka, Sector 18 Dwarka, Dwarka Sector 9, Sector 5 Dwarka, Sector 12 Dwarka, Dwarka Sector 3, Sector 23 Dwarka, Pocket A Sector 13 Dwarka, Block A Mahavir Enclave, Mahavir Enclave Part 1, Block A Mahavir Enclave Part 1, Sector 11 Dwarka, Sector 4 Dwarka, Sector 19 Dwarka, Sector 13 Dwarka, Dwarka, Sector 17 Dwarka, Block B Vijay Enclave, Pocket 7 Sector 12 Dwarka, Palam Extension, Mahavir Enclave, Sector 2 Dwarka, Pocket 2 Sector 6 Dwarka, Sector 8 Dwarka, Pocket 2 Dwarka Sector 9',
+        rent_range: '₹ 21 Lacs - 5.85 Cr',
+        sell_sange: null,
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img5,
         name: 'Paras Bhardwaj',
         company: [
             {
+                img: mb_img5,
                 name: 'Sai Darshan Estate',
                 year: null,
-                emp: 'Buyers Served 2000+'
+                emp: '2000+'
             }
         ],
         sale: '47',
-        sale_title: 'Properties for Sale',
         rent: '5',
-        rent_title: 'Properties for Rent',
         rating: '4',
-        rating_title: 'CRISIL Rating',
+        rating_title: 'CRISIL Rating',      
+        operating_loc: 'Sector 10 Dwarka, Sector 2 Dwarka, Sector 6 Dwarka, Sector 11 Dwarka, Dwarka, Sector 5 Dwarka, Sector 12 Dwarka, Sector 19 Dwarka, Dwarka Sector 9, Sector 4 Dwarka, Sector 18 Dwarka, Sector 22 Dwarka, Sector 18A Dwarka, Sector 13 Dwarka, Sector 7 Dwarka',
+        rent_range: '₹ 1.84 Cr - 4.25 Cr',
+        sell_sange: null,        
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img6,
         name: 'Ramesh Tripathi',
         company: [
             {
+                img: mb_img6,
                 name: 'Awadh Purvanchal Real Estate',
-                year: 'Operating Since 2012',
-                emp: 'Buyers Served 2000+'
+                year: '2012',
+                emp: '2000+'
             }
         ],
         sale: '43',
-        sale_title: 'Properties for Sale',
         rent: null,
         rent_title: null,
         rating: null,
-        rating_title: null,
+        rating_title: null,        
+        operating_loc: 'Sector 19 Dwarka, Dwarka, Sector 12 Dwarka,  Sector 10 Dwarka, Sector 5 Dwarka, Sector 18 Dwarka, Sector 2 Dwarka, Sector 22 Dwarka, Dwarka Sector 9, Pocket A2 Sector 17 Dwarka, Sector 23 Dwarka, Sector 11 Dwarka, Sector 4 Dwarka, Dwarka Sector 3, Sector 13 Dwarka, Sector 6 Dwarka',
+        rent_range: '₹ 2.10 Cr - 4.38 Cr',
+        sell_sange: '₹ 41,000 - 50,000',
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img7,
         name: 'Vishal Soni',
         company: [
             {
+                img: mb_img7,
                 name: 'Om Documentation & Associates',
-                year: 'Operating Since 2010',
-                emp: 'Buyers Served 5500+'
+                year: '2010',
+                emp: '5500+'
             }
         ],
         sale: '50',
-        sale_title: 'Properties for Sale',
         rent: null,
         rent_title: null,
         rating: '3',
-        rating_title: 'CRISIL Rating',
+        rating_title: 'CRISIL Rating',        
+        operating_loc: 'Moti Nagar, New Moti Nagar, Sector 19B Dwarka, Lowrence Road',
+        rent_range: '₹ 37.5 Lacs - 120 Cr',
+        sell_sange: '₹ 24,000 - 55,000',
     },
     {
-        co: 'MB Preferred',
+        agent_img: agent_img8,
         name: 'Harveen Singh Sethi',
         company: [
             {
+                img: mb_img8,
                 name: 'Global Realitiez',
                 year: 'Operating Since2012',
-                emp: 'Buyers Served 1000+'
+                emp: '1000+'
             }
         ],
         sale: '98',
-        sale_title: 'Properties for Sale',
         rent: '3',
-        rent_title: 'Properties for Rent',
         rating: null,
         rating_title: null,
+        operating_loc: 'Malviya Nagar, Nehru Enclave Chittaranjan Park, Hauz Khas',
+        rent_range: '₹ 1.30 Cr - 9 Cr',
+        sell_sange: '₹ 32,000 - 40,000',
     },
 ];
 
@@ -484,6 +501,7 @@ export const snap= [
 
 export const residence = [
     {
+        id : '1',
         city : 'Banglore',
         sub_cities : [
             "Sobha Dream Acres", "Prestige Lakeside Habitat", "Prestige Shantiniketan", "Prestige Falcon City",
@@ -494,6 +512,7 @@ export const residence = [
         ]
     },
     {
+        id : '2',
         city : 'Mumbai', 
         sub_cities : [
             "Vasant Oasis", "Royal Palms", "Highland Park", "Spring Field", "Omkar 1973", "Sea Bird", "Rustomjee Paramount",
@@ -503,6 +522,7 @@ export const residence = [
         ],
     },
     {
+        id : '3',
         city : 'Pune', 
         sub_cities : [
             "Park Street", "Palm Atlantis", "Lodha Belmondo", "Kundlika Valley", "Zinnia Elegans", "Dream Homes", "Pride World City", "Lake Town",
@@ -512,6 +532,7 @@ export const residence = [
         ],
     },
     {
+        id : '4',
         city : 'Hyderabad', 
         sub_cities : [
             "My Home Bhooja", "My Home Avatar", "Galaxy Apartments", "Whistling Woods", "Rainbow Vistas", "Prestige High Fields", "My Home Vihanga", 
@@ -521,6 +542,7 @@ export const residence = [
         ],
     },
     {
+        id : '5',
         city : 'Noida', 
         sub_cities : [
             "Mahagun Mywoods", "Gaur City 2", "Cleo County", "Panchsheel Greens", "Godrej Woods", "Amrapali Sapphire", "Supertech Eco Village 1", 
@@ -530,6 +552,7 @@ export const residence = [
         ],
     },
     {
+        id : '6',
         city : 'Gurgaon', 
         sub_cities : [
             "Vatika City", "Chintels Paradiso", "Galaxy Apartment", "M3M Golf Estate", "Parsvnath Exotica", "DLF Camellias", "Birds Eye View", 
@@ -539,6 +562,7 @@ export const residence = [
         ],
     },
     {
+        id : '7',
         city : 'Kolkata',
         sub_cities : [
             "Mega City", "Elita Garden Vista", "Dream City", "Balaji Enclave", "Balaji Residency", "Urbana", "Southwinds", "Sunrise Point", 
@@ -547,6 +571,7 @@ export const residence = [
         ],
     },
     {
+        id : '8',
         city : 'Chennai',
         sub_cities : [
             "House of Hiranandani", "Sree Krishna", "Prestige Bella Vista", "Kosmo One", "DLF Gardencity", "Casagrand Zenith", "Casagrand First city", 
@@ -556,6 +581,7 @@ export const residence = [
         ],
     },
     {
+        id : '9',
         city : 'Thane', 
         sub_cities : [
             "Lodha Amara", "Lodha Splendora", "Regency Anantam", "Runwal Gardens", "Lodha Palava", "Sai Residency", "Rustomjee Urbania", 
@@ -565,6 +591,7 @@ export const residence = [
         ],
     },
     {
+        id : '10',
         city : 'Ahmedabad',
         sub_cities : [
             "Godrej Garden City", "Adani Shantigram", "Ananta", "Super City", "Suryam Repose", "Saujanya", "Iscon Platinum", "Riverfront Flower Park",
@@ -574,3 +601,298 @@ export const residence = [
         ],
     },
 ];
+
+export const blogs = [
+    {
+        id : '1',
+        title : 'Govt Portals',
+        sub_title : [
+            'IGRS AP', 'IGRS Rajasthan', 'IGRS Jharkhand', 'MPIGR', 'TNREGINET', 'TSMDC', 'EPFO UAN Login', 'IGR Maharashtra', 'IGRS Telangana', 'IGRS Bihar', 'IGRSUP',
+        ],
+    },
+    {
+        id : '2',
+        title : 'Celebrity Homes',
+        sub_title : [
+            'Mukesh Ambani House Antilia', 'Mannat - Shahrukh Khan House', 'Pataudi Palace', 'Salman Khan House', 'Alia Bhatt House', 'Virat Kohli House',
+            'MS Dhoni Farm House', 'Ajay Devgan House', 'Hrithik Roshan House', 'Amitabh Bachchan House', 'Gautam Adani House', 'Sachin Tendulkar House',
+        ],
+    },
+    {
+        id : '3',
+        title : 'Home Decor',
+        sub_title : [
+            'Two Colour Combination for Bedroom Walls', 'Two Colour Combination for Living Room', 'Pink Two Colour Combination for Bedroom Walls',
+            'Orange Two Colour Combination for Bedroom Walls', 'Pop Design', 'Plus Minus Pop Design', 'Pop Design for Hall', 'Kitchen Designs', 
+            'Bathroom Designs', 'Griha Pravesh Muhurat 2022',
+        ],
+    },
+    {
+        id : '4',
+        title : 'Visual Stories',
+        sub_title : [
+            'Bathroom Design Ideas', 'Monsoon-proof Decor Tips', 'Top Office Buildings in India', 'Name Plate Vastu Ideas', 'Vastu Approved Pets',
+            'Feng Shui Secret to Attract Money', 'Dinning Room Vastu Tips', 'Mukesh Ambani House', 'Samruddhi Mahamarg', 'Gautam Adani House', 'Vastu Shastra Ideas'
+        ],
+    },
+    {
+        id : '5',
+        title : 'Land Records',
+        sub_title : [
+            '7 12 Mahabhulekh', 'Bhoomi Online: Karnataka Land Records', 'UP Bhulekh', 'Bihar Bhulekh', 'Patta Chitta', 'Meebhoomi', 'Jharbhoomi',
+            'Jamabandi Punjab', 'Jamabandi Haryana', 'Banglarbhumi', 'AnyROR Gujarat', 'Apna Khata Rajasthan',
+        ],
+    },
+    {
+        id : '6',
+        title : 'Housing Scheme',
+        sub_title : [
+            'MHADA Lottery Pune', 'MHADA Lottery 2022', 'DDA Housing Scheme', 'CIDCO Lottery', 'RGRHCL', 'APSHCL', 
+        ],
+    },
+    {
+        id : '7',
+        title : 'RERA',
+        sub_title : [
+            'UP RERA', 'RERA Act', 'RERA Registration Process', 'RERA Gujarat', 'RERA Karnataka', 'RERA Kerala', 'RERA MP', 'RERA Odisha', 'RERA Bihar', 'RERA Goa',
+        ],
+    },
+    {
+        id : '8',
+        title : 'Stamp Duty',
+        sub_title : [
+            'Stamp Duty in Telangana', 'Stamp Duty in Punjab', 'Stamp Duty in Maharashtra', 'Stamp Duty in UP', 'Stamp Duty in MP', 
+            'Stamp Duty in Delhi', 'Stamp Duty in Tamil Nadu', 'Stamp Duty in West Bengal', 'Stamp Duty in Gujarat', 'Stamp Duty in Haryana',
+            'Stamp Duty in Rajasthan',
+        ],
+    },
+    {
+        id : '9',
+        title : 'Home Loan',
+        sub_title : [
+            'Home Loan Online', 'Home Loan Eligibility Calculator', 'Home Loan EMI Calculator', 'Home Loan Prepayment Calculator', 
+            'Home Loan Required Documents', 'Home Loan Balance Transfer', 'Home Loan Interest Rate', 
+        ],
+    },
+    {
+        id : '10',
+        title : 'PMAY', 
+        sub_title : [
+            'Pradhan Mantri Awas Yojana', 'Pradhan Mantri Awas Yojana Gramin', 'Pradhan Mantri Awas Yojana Urban', 'Documents required for PMAY',
+            'Pradhan Mantri Awas Yojana Eligibility', 'Pradhan Mantri Awas Yojana Online Form','PMAY Subsidy Status', 'PMAY Gramin List',
+            'PMAY List', 'PMAY Urban List',
+        ],
+    },
+    {
+        id : '11',
+        title : 'Metro Projects',
+        sub_title : [
+            'Delhi Metro', 'Mumbai Metro', 'Namma Metro Bangalore', 'Kolkata Metro', 'Chennai Metro',
+        ],
+    },
+    {
+        id : '12',
+        title : 'Interior Visuals',
+        sub_title : [
+            'Interior Design Tips', 'Wooden Bathroom Design', 'Stainless-steel Door Locks', 'Easy Rangoli Design', 'Wooden Door Handle Design', 
+            'Bedroom Side Table Design', 'Sliding Wardrobe Design', 'Red Kitchen Design', 'Bathroom Cupboard Design', 'Green Kitchen Design', 
+            'Red White Kitchen Design', 'Duplex House Design',
+        ],
+    },
+    {
+        id : '13',
+        title : 'Circle Rates',
+        sub_title : [
+            'Circle Rate in Delhi', 'Circle Rate in NOIDA', 'Circle Rate in Gurgaon', 'Circle Rates in Ghaziabad', 'Circle Rates in Lucknow', 
+            'Circle Rate in Hyderabad', 'Circle Rate in Pune',
+        ],
+    },
+    {
+        id : '14',
+        title : 'Property Tax', 
+        sub_title : [
+            'BBMP Property Tax Bangalore', 'GHMC Property Tax Hyderabad', 'Pune Property Tax', 'MCD Property Tax Delhi', 'MCG Property Tax Gurgaon',
+            'Ahmedabad Municipal Corporation Property Tax', 'PCMC Property Tax', 'Chennai Property Tax', 'Pune Property Tax', 'MCGM Property Tax BMC Mumbai',
+        ],
+    },
+];
+
+export const areaCalc = [
+    'Square feet to Square Meter', 'Square Meter to Square Feet', 'Hectare to Acre', 'Square feet to Square Yard', 'Are to Square Feet',
+    'Square Meter to Square Feet', 'Hectare to Feet', 'Cent to Square Feet', 'HEctare to Square Feet', 'Square Feet to Square Yard',
+    'Acre to Hectare', 'Cent to Square Feet', 'Square Feet to Gaj', 'Acre to Square Meter', 'Hectare to Bigha', 'Acre to Bigha',
+    'Square Yard to Swuare Meter', 'Square Meter to Square Yard', 'Acre to Square Yard', 'Bigha to Square Feet', 'Bigha to Acre', 
+    'Bigha to Hectare', 'Bigha to Gaj', 'Katha Square Feet', 'Meter to Feet', 'Feet to Meter', 'Inches to CM', 'MM to Inches', 
+    'CM to Feet', 'Square Feet to Square Yaard', 'Bigha to Biswa', 'Biswa to Square Feet', 
+];
+
+export const propOptionsCities = [
+    {
+        id: '1',
+        type: 'Buy',
+        subType: [
+            {
+                category: 'Popular Residential Searches',
+                subCategory: [
+                    'Property for Sale in Mumbai', 'Flats in Mumbai', 'Studio Apartments in Mumbai', 'Resale House in Mumbai', 'House for Sale in Mumbai', 
+                    'Villas for Sale in Mumbai', 'Penthouse in Mumbai', 'Ready To Move Flats in Mumbai', 'Resale Flats in Mumbai', 
+                ],
+            },
+            {
+                category: 'Popular BHK Searches',
+                subCategory: [
+                    '1 BHK Flats in Mumbai', '2 BHK Flats in Mumbai', '3 BHK Flats in Mumbai', '4 BHK Flats in Mumbai', '1 BHK House for Sale in Mumbai', 
+                    '2 BHK House for Sale in Mumbai', '3 BHK House for Sale in Mumbai', '4 BHK House for Sale in Mumbai', '1 BHK Villa for Sale in Mumbai',
+                    '2 BHK Villa for Sale in Mumbai', '3 BHK Villa for Sale in Mumbai', '4 BHK Villa for Sale in Mumbai',
+                ],
+            },
+            {
+                category: 'Popular Flat Searches',
+                subCategory: [
+                    'Flats for Sale in Andheri East', 'Flats for Sale in Chembur', 'Flats for Sale in Borivali West', 'Flats for Sale in Virar West', 
+                    'Flats for Sale in Kandivali West', 'Flats for Sale in Bandra West', 'Flats for Sale in Goregaon West', 'Flats for Sale in Goregaon East', 
+                    'Flats for Sale in Andheri West',
+                ],
+            },
+            {
+                category: 'Popular House Searches',
+                subCategory: [
+                    'House for Sale in Bandra West', 'House for Sale in Chembur', 'House for Sale in Andheri West', 'House for Sale in Borivali West',
+                    'House for Sale in Virar', 'House for Sale in Malad West', 'House for Sale in Juhu', 'House for Sale in Andheri East', 'House for Sale in Vasai',
+                ],
+            },
+            {
+                category: 'Popular Property Searches',
+                subCategory: [
+                    'Property for Sale in Andheri West', 'Property for Sale in Chembur', 'Property for Sale in Goregaon East', 'Property for Sale in Borivali West',
+                    'Property for Sale in Kandivali West', 'Property for Sale in Malad West', 'Property for Sale in Andheri East', 'Property for Sale in Goregaon West', 
+                    'Property for Sale in Virar West', 
+                ],
+            }, 
+            {
+                category: 'Popular Plot Searches',
+                subCategory: [
+                    'Plots for Sale in Vasai', 'Plots for Sale in Virar', 'Plots for Sale in Andheri East', 'Plots for Sale in Virar West', 
+                    'Plots for Sale in Bandra West',
+                ],
+            }, 
+            {
+                category: 'Popular Commercial Searches',
+                subCategory: [
+                    'Commercial Property for Sale in Mumbai', 'Office Space for Sale in Mumbai', 'Shops for Sale in Mumbai', 'Showroom for Sale in Mumbai',
+                    'Commercial Land for Sale in Mumbai', 'Industrial Land for Sale in Mumbai', 'Agricultural Land for Sale in Mumbai', 
+                ],
+            }, 
+            {
+                category: 'Popular Commercial Locality',
+                subCategory: [
+                    'Commercial Property in Western Express Highway', 'Commercial Property in Swami Vivekanand Road', 'Commercial Property in New Link Road', 
+                    'Commercial Property in CD Barfiwala Road', 'Commercial Property in Andheri', 'Commercial Property in Jogeshwari Vikhroli Link Road', 
+                    'Commercial Property in Sahar Road', 'Commercial Property in Saki Vihar Road', 'Commercial Property in Andheri Kurla Road', 'Commercial Property in Marve Road ',
+                ],
+            },
+            {
+                category: 'Popular Luxury Searches',
+                subCategory: [
+                    'Luxury Houses in Mumbai', 'Luxury Villas in Mumbai', 'Luxury Bungalows in Mumbai', 
+                ],
+            },
+            {
+                category: 'Property Near Me',
+                subCategory: [
+                    'Flats for sale near me', 'Houses for sale near me', 'Plots for sale near me', 'Villa for sale near me', 'Property for sale near me',
+                ],
+            },
+            {
+                category: 'Real Estate India',
+                subCategory: [
+                    'House in India', 'Apartment in India', 'Villas in India', 'Pent House in India', 'Land in India', 'Property in India', 
+                    'Flats in India', 'Agriculture Land in India', 'Farm House in India', 
+                ],
+            },
+            {
+                category: 'New Project Searches',
+                subCategory: [
+                    'New Projects in Andheri East', 'New Projects in Chembur', 'New Projects in Borivali West', 'New Projects in Virar West', 
+                    'New Projects in Kandivali West', 'New Projects in Bandra West', 'New Projects in Goregaon West', 'New Projects in Mira Road', 
+                    'New Projects in Goregaon East', 'New Projects in Andheri West', 
+                ],
+            },            
+        ],
+        
+    },
+    {
+        id: '2',
+        type: 'Rent',
+        subType: [
+            {
+                category: 'Popular Rental Searches',
+                subCategory: [
+                    'Property for Rent in Mumbai', 'Flats for Rent in Mumbai', 'Coworking space in Mumbai', 'Studio Apartments for Rent in Mumbai',
+                    'Hostels in Mumbai', 'Single Room for Rent in Mumbai', 'House for Lease in Mumbai', 'Fully Furnished Flat for Rent in Mumbai',
+                    'House for Rent in Mumbai', 'Studio Apartment for Rent in Mumbai', 'Villa for Rent in Mumbai', 'PG in Mumbai', 'Service Apartments in Mumbai',
+                ],
+            },
+            {
+                category: 'Popular BHK Searches',
+                subCategory: [
+                    '1 BHK Flats for Rent in Mumbai', '2 BHK Flats for Rent in Mumbai', '3 BHK Flats for Rent in Mumbai', '4 BHK Flats for Rent in Mumbai', '1 BHK House for Rent in Mumbai', 
+                    '2 BHK House for Rent in Mumbai', '3 BHK House for Rent in Mumbai', '4 BHK House for Rent in Mumbai', '1 BHK Villa for Rent in Mumbai',
+                    '2 BHK Villa for Rent in Mumbai', '3 BHK Villa for Rent in Mumbai', '4 BHK Villa for Rent in Mumbai',
+                ],
+            },
+            {
+                category: 'Popular Flat Searches',
+                subCategory: [
+                    'Flats for Rent in Andheri East', 'Flats for Rent in Chembur', 'Flats for Rent in Borivali West', 'Flats for Rent in Virar West', 
+                    'Flats for Rent in Kandivali West', 'Flats for Rent in Bandra West', 'Flats for Rent in Goregaon West', 'Flats for Rent in Goregaon East', 
+                    'Flats for Rent in Andheri West',
+                ],
+            },
+            {
+                category: 'Popular House Searches',
+                subCategory: [
+                    'House for Rent in Bandra West', 'House for Rent in Chembur', 'House for Rent in Andheri West', 'House for Rent in Borivali West',
+                    'House for Rent in Virar', 'House for Rent in Malad West', 'House for Rent in Juhu', 'House for Rent in Andheri East', 'House for Rent in Vasai',
+                ],
+            },
+            {
+                category: 'Popular Property Searches',
+                subCategory: [
+                    'Property for Rent in Vasai West', 'Property for Rent in Bhandup West', 'Property for Rent in Ulhasnagar', 'Property for Rent in Mumbai CST Area',
+                    'Property for Rent in Kurla West', 'Property for Rent in Goregaon East', 'Property for Rent in Borivali West', 'Property for Rent in Andheri West',
+                ],
+            }, 
+            {
+                category: 'Popular Commercial Locality',
+                subCategory: [
+                    'Commercial Property for Rent in Western Express Highway', 'Commercial Property for Rent in CD Barfiwala Road', 'Commercial Property for Rent in Andheri',
+                    'Commercial Property for Rent in Jogeshwari Vikhroli Link Road', 'Commercial Property for Rent in Swami Vivekanand Road', 'Commercial Property for Rent in Saki Vihar Road',
+                    'Commercial Property for Rent in Andheri Kurla Road', 'Commercial Property for Rent in Sahar Road', 'Commercial Property for Rent in Teli G',
+                ],
+            }, 
+            {
+                category: 'Popular Commercial Searches',
+                subCategory: [
+                    'Commercial Property for Rent in Mumbai', 'Office Space for Rent in Mumbai', 'Shops for Rent in Mumbai', 'Showroom for Rent in Mumbai',
+                    'Commercial Land for Rent in Mumbai', 'Industrial Land for Rent in Mumbai', 'Agricultural Land for Rent in Mumbai', 
+                ],
+            }, 
+            {
+                category: 'Popular PG Locality',
+                subCategory: [
+                    'PG in Western Express Highway', 'PG in Swami Vivekanand Road', 'PG in New Link Road', 
+                    'PG in CD Barfiwala Road', 'PG in Andheri', 'PG in Jogeshwari Vikhroli Link Road', 
+                    'PG in Sahar Road', 'PG in Saki Vihar Road', 'PG in Andheri Kurla Road', 'PG in Marve Road ',
+                ],
+            },
+            {
+                category: 'Property Near Me',
+                subCategory: [
+                    'Flats for rent near me', 'Houses for rent near me', 'Plots for rent near me', 'Villa for rent near me', 'Property for rent near me',
+                ],
+            },        
+        ],
+        
+    },
+]

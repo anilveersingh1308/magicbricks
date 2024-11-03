@@ -9,8 +9,9 @@ import { IoSearch } from 'react-icons/io5'
 import expo from '../../assets/expo_img.jpg'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TiTick } from 'react-icons/ti'
-import { OwnerProjects, Projects } from './Projects'
-import { PropertiesOptions, ResidencialProjects, } from './PropertiesOptions'
+import { MBAgentsContainer, OwnerProjects, Projects } from './Projects'
+import { MmProperties, PropertiesOptions, RecommendedProjects, ResidencialProjects, } from './PropertiesOptions'
+import { SlideShow } from './SlideShow'
 
 
 
@@ -18,7 +19,7 @@ export const Main_Body = () => {
     const desc1 = [{head: 'Find a home you\'ll', head2: 'Love', s_header: 'New Delhi Property Snapshot', f_header: 'Fresh Properties in New Delhi'}];
     const desc2 = [{prop_header: 'We\'ve got properties for everyone', pop_header: 'Popular Owner Properties', f_header: 'Featured Projects', t_header: 'Top Projects', g_header: 'New Project Gallery'}];
     const desc3 = ['An Exclusive Showcase - Homethon Property Expo 2024 by NAREDCO'];
-    const desc4 = [{mb_header:'MB Preferred Agents in New Delhi', res_header: 'Browse Residential Projects in Top 8 Cities',}];
+    const desc4 = [{mb_header:'MB Preferred Agents in New Delhi', res_header: 'Browse Residential Projects in Top 8 Cities', rec_header: 'Recommended for You', topProp_header:'Property Options in Mumbai '}];
     
     
     return (
@@ -35,7 +36,7 @@ export const Main_Body = () => {
                                 <div className='container1-descTop'>{desc.head}  <span>{desc.head2}</span> </div>                
                                 {search_Menu.map((menu, menu_index) => (
                                     <div className="container-menu">
-                                        <li key={menu_index}><a href="#"> {menu} </a></li>
+                                        <li key={menu_index}><a href="#" style={{color:'rgba(0,0,0,0.83)'}}> {menu} </a></li>
                                     </div>
                                 ))}
                             </div>
@@ -47,7 +48,7 @@ export const Main_Body = () => {
                                 </div>
                                 <div className="searchbar-container-type-finder searchbar-container">
                                     <AiFillHome className='type-icon'/>
-                                    <span>Flat +1</span> <li><FaChevronDown /></li>
+                                    <span>House/Villa</span> <li><FaChevronDown /></li>
                                 </div>
                                 <div className="searchbar-container-budget-finder searchbar-container">
                                     <RiMoneyRupeeCircleFill className='budget-icon'/>
@@ -64,7 +65,7 @@ export const Main_Body = () => {
                     {/*-------------------------- Images preview --------------------------------------------- */}
                     
                     <div className="image-preview-container">
-                        {/*<ImgPreview />  */}
+                        <SlideShow />
                     </div>
                 </div>    
 
@@ -131,7 +132,6 @@ export const Main_Body = () => {
                             <div className="label-header-image flabel-image">
                                 <img src={propLoc.p_img} alt="" />
                             </div>
-                            
                             <div className="flabel-container">
                                 <div className="container1">
                                     <img src={propLoc.p_logo} alt="" />
@@ -146,9 +146,7 @@ export const Main_Body = () => {
                                     <div className="container-prop-type">{propLoc.type}</div>
                                     <div className="container-prop-rate">{propLoc.price} <span>onwards</span></div>
                                 </div>
-                                
                             </div>
-
                         </div>
                     ))}
                 </div>
@@ -177,10 +175,10 @@ export const Main_Body = () => {
                                 <div className="label-header-title">{desc.mb_header}</div>
                                 <div className='outline mb-outline'></div>
                             </div>
-                            <div className="label-right">See all Properties <HiArrowNarrowRight className='icon'/></div>
+                            <div className="label-right">See all Agents <HiArrowNarrowRight className='icon'/></div>
                         </div>
                     ))}
-                    <OwnerProjects />
+                    <MBAgentsContainer />
                 </div>
 
                 {/*-------------------------- Property Services --------------------------------------------- */}
@@ -324,11 +322,9 @@ export const Main_Body = () => {
                                     <div  key={sIndex}>
                                         <div className="count">{snaps.count}</div>
                                         <div className="value">{snaps.value}</div>
-                                    </div>
-                                    
+                                    </div>                                    
                                 </div>
                             ))}
-
                         </div>
                     ))}
                 </div>
@@ -344,9 +340,23 @@ export const Main_Body = () => {
                         <div className="post post-right">
                             <div className="post-container-navigator">Post Property <span>Free</span></div>
                         </div>
-                        
-
                     </div>
+                </div>
+
+                {/*-------------------------- Properties Options in Mumbai --------------------------------------------- */}
+
+                <div className="body-properties-label">
+                    {desc4.map((desc) => (
+                        <div className="properties-label-title">
+                            <div className="lable-left">
+                                <div className="label-header-title">
+                                    {desc.topProp_header} 
+                                </div>
+                                <div className='outline'></div>
+                            </div>
+                        </div>
+                    ))}
+                    <MmProperties />
                 </div>
 
                 {/*-------------------------- Residencial Projects --------------------------------------------- */}
@@ -358,10 +368,23 @@ export const Main_Body = () => {
                                 <div className="label-header-title">{desc.res_header}</div>
                                 <div className='outline'></div>
                             </div>
-                            <div className="label-right">See all Properties <HiArrowNarrowRight className='icon'/></div>
                         </div>
                     ))}
                     <ResidencialProjects />
+                </div>
+
+                {/*-------------------------- Recommended --------------------------------------------- */}
+
+                <div className="body-properties-label">
+                    {desc4.map((desc) => (
+                        <div className="properties-label-title">
+                            <div className="lable-left">
+                                <div className="label-header-title">{desc.rec_header}</div>
+                                <div className='outline'></div>
+                            </div>
+                        </div>
+                    ))}
+                    <RecommendedProjects />
                 </div>
             </div>   
         </div>
